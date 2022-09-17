@@ -1,0 +1,7 @@
+= zim-krew
+
+https://github.com/zimfw/zimfw[zim module] for https://krew.sigs.k8s.io/[krew].
+
+== Features
+
+* Completion
