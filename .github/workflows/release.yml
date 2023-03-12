@@ -11,7 +11,9 @@ jobs:
     outputs:
       release_created: ${{ steps.release.outputs.release_created }}
     steps:
-    - uses: GoogleCloudPlatform/release-please-action@v3.1
+    - uses: GoogleCloudPlatform/release-please-action@v3.7
       id: release
       with:
         release-type: simple
+        signoff: Joke de Buhr <joke@xckk.de>
+        token: ${{ secrets.RELEASE_PLEASE }}
